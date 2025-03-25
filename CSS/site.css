@@ -63,3 +63,50 @@ footer{
     text-align: center;
     padding: 10px;
 }
+
+section #topo{
+    width: 900px;
+    margin: 0px auto;
+    height: 250px;
+    /* background-color: red; */
+}
+
+.geladeira{
+    height: 250px;
+    width: 125px;
+}
+
+.direita{
+    float: right;
+}
+
+.esquerda{
+    float: left;
+}
+
+section #titulos{
+    float: left;
+    height: 250px;
+    width: 650px;
+    margin: 0px auto;
+}
+
+h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+section p{
+    clear: both;
+    text-align: center;
+    margin: 10px 80px;
+}
+
