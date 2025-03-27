@@ -6,6 +6,8 @@
     <meta name="keywords" content="Geladeiras, Frost-free, Refrigeração">
     <meta name="author" content="Escola Sistêmica">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/site.css">
     <title>Código Geladeira</title>
 </head>
 <body>
@@ -16,13 +18,13 @@
 
     <nav>
         <a href="../GELADEIRA/index.html">
-            <div>Início</div>
+            <div class="opcao">Início</div>
         </a>
         <a href="../SITE/produtos.html">
-            <div>Produtos</div>
+            <div class="opcao">Produtos</div>
         </a>
         <a href="../SITE/faleconosco.html">
-            <div>Fale Conosco</div>
+            <div class="opcao">Fale Conosco</div>
         </a>
     </nav>
 
@@ -31,7 +33,7 @@
         <p>Ficou com alguma dúvida? Preencha este formulário e entraremos em contato!</p>
         
         <form name="frmfaleconosco" method="post" action="#">
-            <fieldset>
+            <fieldset class="faleConosco">
                 <legend>Dados pessoais: </legend>
                 <label for="name">Nome: </label>
                 <input type="text" name="txtnome" id="nome">
@@ -42,7 +44,7 @@
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="faleConosco">
                 <legend>Motivo do contato:</legend>
                 <label for="motivo">Motivo: </label>
                 <select name="selmotivo" id="motivo">
@@ -55,8 +57,7 @@
                 </select>
                 <label for="comentario">Comentário: </label>
                 <textarea name="txacomentario" id="comentario"></textarea>
-                <button type="reset">Limpar</button>
-                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button><button type="submit">Enviar</button>
 
             </fieldset>
         </form>

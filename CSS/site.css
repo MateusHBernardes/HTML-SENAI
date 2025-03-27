@@ -1,4 +1,4 @@
-@charset UTF-8;
+@charset "UTF-8";
 
 body{
     margin: 0 auto;
@@ -110,3 +110,63 @@ section p{
     margin: 10px 80px;
 }
 
+/* Produtos */
+
+.tabelaProdutos{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.tituloTabela{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    border: transparent;
+}
+
+tr,td,th{
+    border: 1px solid #b0c4de;
+    padding: 5px;
+}
+
+tr,td{
+    font-size: 14px;
+}
+
+tr:nth-child(even){
+    background-color: #b1ccf5;
+}
+
+tr:nth-child(odd){
+    background-color: #83afd3;
+}
+
+/* Fale Conosco */
+
+.faleConosco{
+    width: 300px;
+    margin: 0px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faleConosco input, .faleConosco textarea, .faleConosco select{
+    margin: 5px auto;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.faleConosco textarea{
+    height: 100px;
+    resize: none;
+}
+
+.faleConosco button{
+    width: 30%;
+    margin: 0 10%;
+    background-color: #b1ccf5;
+    font-weight: bold;
+    font-size: 16px;
+}
