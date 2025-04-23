@@ -17,6 +17,11 @@ function validaFaleConosco() {
         return false;
 
     }
+    if (document.frmfaleconosco.selmotivo.value=="") {
+        alert("Escolha um motivo");
+        document.frmfaleconosco.selmotivo.focus();
+        return false;
+    }
     return true;
 } 
 
