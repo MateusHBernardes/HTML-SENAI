@@ -18,7 +18,7 @@ function validaFaleConosco() {
 
     }
     return true;
-}
+} 
 
 function verificaMotivo(motivo) {
     var elemento = document.getElementById("opcaoProduto");
