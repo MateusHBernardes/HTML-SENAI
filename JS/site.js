@@ -1,6 +1,15 @@
 function validaFaleConosco() {
-    if (document.frmfaleconosco.txtnome.value=="") {
+/*    if (document.frmfaleconosco.txtnome.value=="") {
         alert("Preencha o campo Nome");
+        document.frmfaleconosco.txtnome.focus();
+        return false;
+    }
+*/
+    var nome = document.frmfaleconosco.txtnome.value;
+    var expRegNome = new RegExp("^[a-zA-ZÀ-ÿ\\s]+$");
+
+    if (!expRegNome.test(nome)) {
+        alert("Preencha o campo Nome corretamente");
         document.frmfaleconosco.txtnome.focus();
         return false;
     }
