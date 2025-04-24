@@ -72,3 +72,9 @@ function verificaMotivo(motivo) {
         }
     }
 }
+
+$(document).ready(function () {
+    $("header").load("/SITE/general/cabecalho.html");
+    $("nav").load("/SITE/general/menu.html");
+    $("footer").load("/SITE/general/rodape.html");
+});
